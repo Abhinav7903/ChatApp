@@ -35,8 +35,9 @@ function App() {
   return (
     
 <>
-<Router>
+<Router basename="/ChatApp">
       <Routes>
+        
         <Route path="/" element={<ProtectedRoute>
           <Home />
         </ProtectedRoute>} />
