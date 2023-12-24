@@ -4,7 +4,7 @@ import Add from '../image/add.png'
 import More from '../image/more.png'
 import { useContext } from 'react'
 import { ChatContext } from '../context/ChatContext'
-import '../styles.css'
+import '../allstyle.css'
 import Messages from './Messages'
 import Input from './Input'
 const Chat = () => {

@@ -1,5 +1,6 @@
 import React from 'react'
-import '../styles.css'
+import '../allstyle.css'
+
 import attach from '../image/attach.png'
 import Img from '../image/img.png'
 import { useContext,useState } from 'react'

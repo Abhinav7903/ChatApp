@@ -1,5 +1,6 @@
 import React, { useContext } from 'react'
-import '../styles.css'
+import '../allstyle.css'
+
 import { useState , useEffect} from 'react'
 import { doc, onSnapshot } from 'firebase/firestore'
 import { db } from '../firebase'

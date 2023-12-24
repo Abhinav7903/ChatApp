@@ -1,5 +1,6 @@
 import React from 'react'
-import '../styles.css'
+import '../allstyle.css'
+
 import { useContext } from 'react'
 import { AuthContext } from '../context/AuthContext'
 import { ChatContext } from '../context/ChatContext'

@@ -1,5 +1,6 @@
 import React, { useContext } from 'react'
-import '../styles.css'
+import '../allstyle.css'
+
 import { auth } from '../firebase'
 // import img from '../image/img.png'
 import { AuthContext } from '../context/AuthContext'

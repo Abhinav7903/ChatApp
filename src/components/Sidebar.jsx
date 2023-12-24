@@ -1,5 +1,6 @@
 import React from 'react'
-import '../styles.css'
+import '../allstyle.css'
+
 import NavBar from './NavBar'
 import Search from './Search'
 import Chats from './Chats'
