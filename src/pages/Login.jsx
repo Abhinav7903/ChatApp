@@ -15,7 +15,7 @@ function Login() {
     const password = e.target[1].value;
 
     // bug del on production for testing purposes
-    console.log(email, password);
+    // console.log(email, password);
 
     try {
       await signInWithEmailAndPassword(auth, email, password);

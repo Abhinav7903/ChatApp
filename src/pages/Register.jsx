@@ -1,12 +1,12 @@
 import React, { useState } from 'react';
 import '../allstyle.css'
-
 import Add from '../image/addAvatar.png'
 import {db,auth,storage} from '../firebase'
 import { createUserWithEmailAndPassword,updateProfile } from 'firebase/auth';
 import {  ref, uploadBytesResumable, getDownloadURL } from "firebase/storage";
 import { doc, setDoc } from "firebase/firestore";
 import { useNavigate, Link } from "react-router-dom";
+
 function Register() {
   const [err, setErr] = useState(false);
   const [loading, setLoading] = useState(false);
