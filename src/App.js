@@ -14,16 +14,7 @@ function App() {
 
   const ProtectedRoute=({children})=>{
   const {currentUser} = useContext(AuthContext);  
-    setPersistence(auth, browserSessionPersistence)
-  .then(() => {
-    // Existing and future Auth states are now persisted in the current
-    // session only. Closing the window would clear any existing state even
-    // if a user forgets to sign out.
-  })
-  .catch((error) => {
-    // Handle Errors here.
-    console.error(error);
-  });
+    
     if(!currentUser){
       return <Navigate to="/login" />
 
@@ -53,4 +44,3 @@ function App() {
 export default App;
 
 
-// /1:13:27

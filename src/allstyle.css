@@ -389,31 +389,36 @@
 }
 
 
-/* Original styles for all components */
-
-/* Media query for screens smaller than 600px */
-@media screen and (max-width: 600px) {
-    .formWrapper {
-        width: 100%; /* Adjust as needed for responsiveness */
+/* Media Query Mixins */
+@media screen and (max-width: 480px) {
+    .formContainer,
+    .home {
+      width: 100%;
     }
-
-    /* Add more responsive styles for other components as needed */
-}
-
-/* Media query for screens between 601px and 1024px */
-@media screen and (min-width: 601px) and (max-width: 1024px) {
-    .formWrapper {
-        width: 70%; /* Adjust as needed for responsiveness */
+  }
+  
+  @media screen and (max-width: 768px) {
+    .formContainer {
+      width: 90%;
     }
-
-    /* Add more responsive styles for other components as needed */
-}
-
-/* Media query for screens larger than 1024px */
-@media screen and (min-width: 1025px) {
-    .formWrapper {
-        width: 50%; /* Adjust as needed for responsiveness */
+    
+    .home .container {
+      width: 90%;
     }
-
-    /* Add more responsive styles for other components as needed */
-}
+  
+    .home .container .sidebar .navbar .logo {
+      display: none;
+    }
+  
+    .home .container .sidebar .user button {
+      position: absolute;
+      bottom: 10px;
+    }
+  }
+  
+  @media screen and (max-width: 1200px) {
+    .formContainer,
+    .home .container {
+      width: 65%;
+    }
+  }
