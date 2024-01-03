@@ -366,6 +366,12 @@
     gap: 10px;
 
 }
+.messages .message .messageInfo span{
+    /* font-weight: bold; */
+    font-size: 10px;
+    color: #5b5bee;
+
+}
 .messages .message .messageContent p{
     background-color: white;
     padding: 10px 20px;
@@ -422,3 +428,30 @@
       width: 65%;
     }
   }
+
+  /* videocall */
+  .video-call-wrapper {
+    text-align: center;
+    margin: 20px;
+  }
+  
+  .video-call-container {
+    border: 1px solid #ccc;
+    padding: 20px;
+    margin-top: 20px;
+  }
+  
+  video {
+    width: 100%;
+  }
+  
+  .call-controls {
+    margin-top: 10px;
+  }
+  
+  button {
+    margin: 5px;
+  }
+  
+
+

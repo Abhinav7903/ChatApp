@@ -13,10 +13,6 @@ function Login() {
     e.preventDefault();
     const email = e.target[0].value;
     const password = e.target[1].value;
-
-    // bug del on production for testing purposes
-    // console.log(email, password);
-
     try {
       await signInWithEmailAndPassword(auth, email, password);
       navigate("/");
@@ -43,3 +39,4 @@ function Login() {
 }
 
 export default Login;
+

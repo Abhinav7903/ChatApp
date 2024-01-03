@@ -28,7 +28,7 @@ const Input = () => {
 
       uploadTask.on(
         (error) => {
-          //TODO:Handle Error
+          
         },
         () => {
           getDownloadURL(uploadTask.snapshot.ref).then(async (downloadURL) => {
