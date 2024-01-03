@@ -16,7 +16,7 @@ function Login() {
     try {
       await signInWithEmailAndPassword(auth, email, password);
       navigate("/");
-      console.log('login');
+      // console.log('login');
     } catch (err) {
       alert(err.message);
     }

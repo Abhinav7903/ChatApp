@@ -7,22 +7,18 @@ import { ChatContext } from '../context/ChatContext'
 import '../allstyle.css'
 import Messages from './Messages'
 import Input from './Input'
-import { Link } from 'react-router-dom'
+
 const Chat = () => {
   const {data}=useContext(ChatContext)
-  const isUserSelected = () => {
-    return !!data.user // Using double negation to convert truthy/falsy values to true/false
-  };
+  
   return (
     <div className="chat">
       <div className="chatInfo">
         <span>{data.user?.displayName}</span>
         <div className="chatIcon">
-        {isUserSelected && (
-            <Link to="/video-call">
-              <img src={Cam} alt="Start Video Call" />
-            </Link>
-          )}
+        
+          <img src={Cam} alt="Start Video Call" />
+            
             <img src={Add} alt="" />
             <img src={More} alt="" />
 

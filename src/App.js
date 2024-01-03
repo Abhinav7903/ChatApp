@@ -5,7 +5,7 @@ import Login from './pages/Login';
 import { useContext } from 'react';
 import { AuthContext } from './context/AuthContext';
 import { BrowserRouter as Router, Routes, Route ,Navigate} from 'react-router-dom';
-import VideoCall from './components/video';
+// import VideoCall from './components/video';
 
 function App() {
   
@@ -32,7 +32,7 @@ function App() {
         </ProtectedRoute>} />
         <Route path="/login" element={<Login />} />    
         <Route path="/register" element={<Register />} />
-        <Route path="/video-call" element={<VideoCall/>} />
+        {/* <Route path="/video-call" element={<VideoCall/>} /> */}
         {/* Add more routes for other components */}
       </Routes>
     </Router>

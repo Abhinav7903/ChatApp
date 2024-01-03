@@ -4,6 +4,10 @@ import { initializeApp } from "firebase/app";
 import {getAuth,setPersistence, browserSessionPersistence} from "firebase/auth";
 import {getStorage} from "firebase/storage";
 import {getFirestore} from "firebase/firestore";  
+// import 'dotenv/config'
+
+// const a = process.env.API_KEY;
+// console.log(a);
 const firebaseConfig = {
   apiKey: "AIzaSyDfsK4hE41h4ri8xNWjo1e-vHsWxgcTg7w",
   authDomain: "chatapp-fc269.firebaseapp.com",
