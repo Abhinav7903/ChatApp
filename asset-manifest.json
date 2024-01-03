@@ -1,12 +1,12 @@
 {
   "files": {
     "main.css": "/ChatApp/static/css/main.6f22768f.css",
-    "main.js": "/ChatApp/static/js/main.72bf091b.js",
+    "main.js": "/ChatApp/static/js/main.b1675a4f.js",
     "static/js/27.f2a2fd21.chunk.js": "/ChatApp/static/js/27.f2a2fd21.chunk.js",
     "index.html": "/ChatApp/index.html"
   },
   "entrypoints": [
     "static/css/main.6f22768f.css",
-    "static/js/main.72bf091b.js"
+    "static/js/main.b1675a4f.js"
   ]
 }
